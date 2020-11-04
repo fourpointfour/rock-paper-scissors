@@ -53,7 +53,6 @@ class _GamePageState extends State<GamePage> {
                     ),
                     child: Icon(Icons.touch_app),
                     onPressed: () {
-                      print("Button pressed");
                       _startSpinning();
                     },
                   ),
